@@ -26,7 +26,7 @@
 <bean class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean" id="emf">
 <property name="dataSource" ref="dmds"/>
 <property name="persistenceProviderClass" value="org.hibernate.jpa.HibernatePersistenceProvider"/>
-<property name="packagesToScan" value="com.capg.inventorymanagementsystem.model"/>
+<property name="packagesToScan" value="com.ims.model"/>
 <property name="jpaPropertyMap">
 <map>
 	<entry key="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect"/>
