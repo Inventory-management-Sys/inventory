@@ -1,5 +1,10 @@
 package com.ims.dao;
 
-public interface ProductDao {
+import org.springframework.data.repository.CrudRepository;
+
+import com.ims.model.Product;
+
+public interface ProductDao extends CrudRepository<Product,Integer>{
+	
 
 }
