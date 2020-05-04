@@ -2,35 +2,40 @@ package com.ims.model;
 
 public class Supplier {
 	private int id;
-	private int name;
+	private String name;
 	private int contactNo;
 	
 	public Supplier() {
 		
 	}
-	
-	public Supplier(int id, int name, int contactNo) {
+
+	public Supplier(int id, String name, int contactNo) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.contactNo = contactNo;
 	}
-	
+
 	public int getId() {
 		return id;
 	}
+
 	public void setId(int id) {
 		this.id = id;
 	}
-	public int getName() {
+
+	public String getName() {
 		return name;
 	}
-	public void setName(int name) {
+
+	public void setName(String name) {
 		this.name = name;
 	}
+
 	public int getContactNo() {
 		return contactNo;
 	}
+
 	public void setContactNo(int contactNo) {
 		this.contactNo = contactNo;
 	}
@@ -41,5 +46,4 @@ public class Supplier {
 	}
 	
 	
-
 }
